@@ -1,5 +1,7 @@
 body {
-   
+    display: flex;
+    align-items: center;
+    justify-content: center;
     font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: bold;
     text-align: center;
@@ -9,8 +11,8 @@ body {
 }
 .container{
     background-color: #fff;;
-    max-width: 500px;
-    margin: auto;
+    width: 500px;
+    
     padding: 50px 20px;
     border-radius: 50px;
     
