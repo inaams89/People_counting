@@ -1,5 +1,6 @@
 let saveEl = document.getElementById("save-el");
 let countEL =  document.getElementById("count-el")
+let resetEL =  document.getElementById("count-el")
   let count = 0;
 
 
@@ -18,4 +19,9 @@ let countEL =  document.getElementById("count-el")
     count = 0;
     countEL.textContent =count;
   }
-  
+  function reset() {
+    
+    
+    count = 0;
+    countEL.textContent =count;
+  }
